@@ -25,6 +25,11 @@
     <release date="2025-12-15" version="7.8.0"/>
   </releases>
 
+  <branding>
+      <color type="primary" scheme_preference="light">#267f82</color>
+      <color type="primary" scheme_preference="dark">#267f82</color>
+  </branding>
+
   <project_group>Tryton</project_group>
   <developer_name>Tryton</developer_name>
   <developer id="org.tryton">
