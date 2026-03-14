@@ -2,7 +2,7 @@
     "name": "python3-tryton",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==7.8.3\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==7.8.4\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -17,8 +17,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d3/a5/68f883df1d8442e3b267cb92105a4b2f0de819bd64ac9981c2d680d3f49f/pygobject-3.54.5.tar.gz",
-            "sha256": "b6656f6348f5245606cf15ea48c384c7f05156c75ead206c1b246c80a22fb585"
+            "url": "https://files.pythonhosted.org/packages/c9/f6/46e5d170c46a9fcf44c740bad5f919fccb3e822d7578bd24b9d8d5918312/pygobject-3.56.1.tar.gz",
+            "sha256": "2ec1cc8c55c7ffeebb97e58a9bba7aa1e74611f1173628084685446804a8881a"
         },
         {
             "type": "file",
@@ -32,8 +32,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/20/fc/193c9d67802d7d0ce8ff1365bafe78020a1a539978891d937566817ff873/tryton-7.8.3-py3-none-any.whl",
-            "sha256": "7abcc28bd9a07512007de71c2b3a9cbbeedabbdc5428ca9506c7e6ae84e8b8bb"
+            "url": "https://files.pythonhosted.org/packages/d0/48/2502faa894c97844f425ca27aa55e66663642e5311ca85e1b9e81014ae17/tryton-7.8.4-py3-none-any.whl",
+            "sha256": "6c7d43f7e57c875a43e26154be2485982a290cb2d5c5bbf47cbdfb6677f7695b"
         }
     ]
 }
